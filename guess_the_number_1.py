@@ -31,9 +31,9 @@ def get_draw_number():
     given_number = get_user_number()
     while draw_number != given_number:
         if draw_number > given_number:
-            print("To small!")
+            print("Too small!")
         elif draw_number < given_number:
-            print("To big!")
+            print("Too big!")
         given_number = get_user_number()
     print("You win!")
 
